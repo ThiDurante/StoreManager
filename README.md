@@ -1,8 +1,6 @@
 # Store-Manager
 
-Project done at Trybe, using a MySQL DB, managing basic CRUD operations using node and docker.
-
-An API using MSC (Model, Service, Controller) architecture, I built an app that is responsible for managing sales on a store, working with MySQL DB to store them.
+Project done at Trybe, an API using a MySQL DB and MSC architecture, with basic CRUD operations using node and docker, that is responsible for managing sales on a store
 
 ## Installation and use
 
