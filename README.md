@@ -24,7 +24,7 @@ And its ready to use, you can send requisitions using postman, insomnia or thund
 
 ## Screenshots
 
-The reqs are the requisites the project had at Trybe
+I use a pattern to organize my commits, check it out:
 
 ![App Screenshot](https://i.imgur.com/k4lxMh8.png)
 ![App Screenshot](https://i.imgur.com/lSwGDmv.png)
