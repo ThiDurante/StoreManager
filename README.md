@@ -11,13 +11,20 @@ Login: root
 Password: password
 
 ```bash
-  Copy the repo
-  use cd to get into the directory
-  docker-compose up -d
-  Connect to the DB and populate it using the scripts migration and seed
-  docker exec -it store_manager bash
-  npm i
-  npm run dev
+# First clone the repo
+git clone https://github.com/ThiDurante/StoreManager.git
+# Now let's get into the folder
+cd StoreManager
+# It's all about docker compose
+docker-compose up -d
+# Let's get inside the docker container terminal
+docker exec -it store_manager bash
+# Install everything we need to make it work
+npm install
+# Populate the DB
+npm run migrate && npm run seed
+# Run the app!
+npm run dev
 ```
 
 And its ready to use, you can send requisitions using postman, insomnia or thunderclient
